@@ -79,7 +79,7 @@
     height: 100%;
     min-height: 1px;
     transition-property: opacity;
-    transition-duration: 350ms;
+    transition-duration: 450ms;
     transition-timing-function: ease;
 }
 [dir='rtl'] .slick-slide
@@ -120,4 +120,7 @@
 
 .slick-current {
     opacity: 1;
+    transition-property: opacity;
+    transition-duration: 450ms;
+    transition-timing-function: ease;
 }
